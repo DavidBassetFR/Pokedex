@@ -1,0 +1,75 @@
+<%- include('partials/header') %>
+
+<h1> Détails de <%= card.nom %> </h1>
+<div class = "BigContainer">
+
+    <div class ="BigContainer__img"> 
+        <img src="/img/<%=card.numero%>.png">
+     </div>
+
+    <div class="BigContainer__info">
+        <h1> <%= card.nom %> </h1>
+     <% for (const elem of card.typeList) { %>
+        <a class="<%=elem.name%>"> <%= elem.name %> </a>
+        
+     <% } %>
+        <div class="stats">
+            <div class="info-stats"> <h1>Statistiques</h1> </div>
+                <div class="info-stats">
+                        <p class="stats-title"> PV </p>
+                        <p> <%=card.pv %> </p>
+
+                         <div class="bar">
+                            <div class="percentage has-tip" style="width:<%=card.pv%>px" > </div>
+                        </div>
+                    </div>
+
+                    <div class="info-stats">
+                        <p class="stats-title"> Attaque </p>
+                        <p> <%=card.attaque %> </p>
+
+                         <div class="bar">
+                            <div class="percentage has-tip" style="width:<%=card.attaque%>px" data-perc="50%"> </div>
+                        </div>
+                    </div>
+
+                    <div class="info-stats">
+                        <p class="stats-title"> Défense </p>
+                        <p> <%=card.defense %> </p>
+
+                         <div class="bar">
+                            <div class="percentage has-tip" style="width:<%=card.defense%>px" data-perc="50%"> </div>
+                        </div>
+                    </div>
+
+                    <div class="info-stats">
+                        <p class="stats-title"> Attaque spé </p>
+                        <p> <%=card.attaque_spe %> </p>
+
+                         <div class="bar">
+                            <div class="percentage has-tip" style="width:<%=card.attaque_spe%>px" data-perc="50%"> </div>
+                        </div>
+                    </div>
+                    <div class="info-stats">
+                        <p class="stats-title"> Défense spé </p>
+                        <p> <%=card.defense_spe %> </p>
+
+                         <div class="bar">
+                            <div class="percentage has-tip" style="width:<%=card.defense_spe%>px" data-perc="50%"> </div>
+                        </div>
+                    </div>
+
+                    <div class="info-stats">
+                        <p class="stats-title"> Vitesse </p>
+                        <p> <%=card.vitesse %> </p>
+
+                         <div class="bar">
+                            <div class="percentage has-tip" style="width:<%=card.vitesse%>px" data-perc="50%"> </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+
+</div>
+<%- include('partials/footer') %>

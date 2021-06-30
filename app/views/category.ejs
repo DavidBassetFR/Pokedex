@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+
+<div class="category-type"> 
+ <% for (const elem of category ){ %>
+    <div  class ="<%=elem.name%>"> <a href="/category/<%=elem.name%>"><%= elem.name %>  </a> </div>
+  
+ <% }%>
+</div>
+
+
+<%- include('partials/footer') %>

@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+
+<% for(const elem of cards){ %>
+<div class= "card-container">
+    <a href="/search/<%=elem.numero %>">
+    <h1 class="nom_pokemon"><%= elem.nom %></h1>
+    <img src ="/img/<%=elem.numero%>.png">
+</a>
+</div>
+
+<% } %>
+
+<%- include('partials/footer') %>

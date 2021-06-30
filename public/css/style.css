@@ -1,0 +1,369 @@
+
+body {
+  background-color: rgba(60, 245, 131, 0.2);
+  font-family: 'Bree Serif', serif;
+}
+.header {
+  background-color: rgb(235, 197, 220);
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 1.2em;
+  
+}
+.header h1 {
+  
+  color: rgba(3, 3, 3, 0.74);
+  text-decoration: none;
+  padding: 10px;
+  justify-content: center;
+  margin: auto;
+  margin-left: 0;
+  font-weight: bold;
+}
+.header a {
+  font-family: 'Bree Serif', serif;
+  color: rgba(0, 0, 0, 0.726);
+  text-decoration: none;
+  padding: 10px;
+  
+
+}
+
+.header .sitename {
+  font-size: 1.5em;
+}
+
+.header nav {
+ align-self: center;
+ 
+}
+
+
+.main {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.main h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.main h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.card-container {
+  width: 28%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 250px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card-container img{
+  width: 50%;
+  height: 80%;
+}
+
+.nom_pokemon{
+  color: rgb(235, 197, 220);
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+
+.card-container a{
+  text-decoration: none;
+}
+
+.BigContainer{
+  display: flex;
+ 
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center
+  
+  
+}
+.BigContainer__info {
+ color:  rgb(172, 121, 182);
+font-weight: bolder;
+width: 30%;
+margin-right: 100px;
+padding-top: 20px;
+text-align: center;
+padding-left: 10px;
+padding-right: 50px;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.1);
+font-size: 1.2em;
+}
+.BigContainer__info h1{
+  margin-bottom: 30px;
+  text-align: center;
+ 
+ 
+}
+
+.BigContainer__img {
+  transform: scalex(-1);
+  margin-left: 200px;
+  margin-right: 100px;
+}
+
+.BigContainer a {
+  margin-right: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+}
+.Plante {
+ 
+  background-color: rgb(70, 219, 70);
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  text-shadow: none;
+}
+
+.Feu {
+  background-color: rgb(245, 133, 29);
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.Eau{
+  background-color: #3399ff;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Insecte{
+  background-color: rgb(126, 77, 13);
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Combat{
+  background-color: #BB5545;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Acier{
+  background-color: #aab;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Dragon{
+  background-color: #76e;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Électrik{
+  background-color: #fb3;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Glace{
+  background-color: #7df;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Insecte {
+  background-color: #ab2;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Normal{
+  background-color: #bab;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Poison{
+  background-color: #a59;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+
+}
+.Psy {
+  background-color: #f59;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Roche{
+  background-color: #ba6;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Sol{
+  background-color: #db5;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+
+}
+.Spectre {
+  background-color: #66b;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Ténèbres {
+  background-color: #654;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.Vol {
+  background-color:#69f;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.info-stats{
+  
+  font-size: 0.8em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-title{
+  width: 100px;
+  text-align: left;
+  height: 30px;
+}
+
+
+.bar {
+  /* font-size: 10px */
+  width: 255px;
+  height: 1em;
+  border-radius: 0.5em;
+  position: relative;
+  background: #f2f2f2;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+  
+}
+
+.bar .percentage {
+  position: relative;
+  font-size: 1em;
+  background: rgb(172, 121, 182);
+  height: 1em;
+  border-radius: 0.5em;
+}
+
+.info-stats p {
+  text-shadow: none;
+  color: black;
+  font-weight: normal;
+}
+
+h1{
+  text-align: center;
+}
+
+
+input{
+  text-align: center;
+  width: 1000px;
+  height: 35px;
+  margin:auto;
+  background-color: rgba(250, 250, 250, 0.9);
+  border: none;
+  border-radius: 10px;
+  
+} 
+
+      
+.searchbar{
+  padding-top: 10px;
+  text-align: center;
+  margin: auto;
+ 
+}
+
+.category-type{
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  padding :20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+}
+
+
+.category-type a{
+  text-decoration: none;
+  color: white;
+}
